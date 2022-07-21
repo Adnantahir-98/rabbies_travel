@@ -4,8 +4,8 @@ import TopNavBar from './TopNav'
 const Navbar = () => {
   return (
     <div>
-        <TopNavBar />
-        Navbar
+      <TopNavBar />
+      Navbar
     </div>
   )
 }
