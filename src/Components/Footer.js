@@ -71,7 +71,7 @@ const Footer = () => {
           </section>
 
           <div className="bg-light">
-            <p className='text-left m-0 px-2 py-4 text-dark'>
+            <p className='text-center m-0 px-2 py-4 text-dark'>
               &copy; 2022 
               <a href="https://www.rabbies.com/en" className='text-success text-decoration-none'> Rabbies.com. </a> 
               All Rights Reserved.
