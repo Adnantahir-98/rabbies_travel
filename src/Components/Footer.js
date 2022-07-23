@@ -34,11 +34,11 @@ const Footer = () => {
                   <ul className="navbar-nav">
                     <li className="nav-item"><Link to="#" className="text-white">Follow us</Link></li>
                     <div className="d-flex m-auto mt-4">
-                      <li className="nav-item h1 me-3"><a href="https://www.facebook.com/" target="_blank" className="text-white"><FaFacebookF /></a></li>
-                      <li className="nav-item h1 me-3"><a href="https://www.instagram.com/" target="_blank" className="text-white"><ImInstagram /></a></li>
-                      <li className="nav-item h1 me-3"><a href="https://www.twitter.com/" target="_blank" className="text-white"><FaTwitter /></a></li>
-                      <li className="nav-item h1 me-3"><a href="https://www.pinterest.com/" target="_blank" className="text-white"><FaPinterest /></a></li>
-                      <li className="nav-item h1"><a href="https://www.youtube.com/" target="_blank" className="text-white"><ImYoutube2 /></a></li>
+                      <li className="nav-item h1 me-3"><a href="https://www.facebook.com/" target="_blank" className="text-white" rel="noreferrer"><FaFacebookF /></a></li>
+                      <li className="nav-item h1 me-3"><a href="https://www.instagram.com/" target="_blank" className="text-white" rel="noreferrer"><ImInstagram /></a></li>
+                      <li className="nav-item h1 me-3"><a href="https://www.twitter.com/" target="_blank" className="text-white" rel="noreferrer"><FaTwitter /></a></li>
+                      <li className="nav-item h1 me-3"><a href="https://www.pinterest.com/" target="_blank" className="text-white" rel="noreferrer"><FaPinterest /></a></li>
+                      <li className="nav-item h1"><a href="https://www.youtube.com/" target="_blank" className="text-white" rel="noreferrer"><ImYoutube2 /></a></li>
                     </div>
                     <img src="imgs/logo-mono-47.png" className='img-fluid w-25 m-auto mt-4 mb-3' alt="Logo-Moon-47.png" />
                   </ul>
@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className="col-md-4">
                   <h6 className="font-weight-bold mb-3">Contact Us</h6>
                   <ul className="navbar-nav">
-                    <li className="nav-item h3"><a href="https://wa.me/4401312263133" target="_blank" className="text-white">+44 (0) 131 226 3133</a></li>
+                    <li className="nav-item h3"><a href="https://wa.me/4401312263133" target="_blank" className="text-white" rel="noreferrer">+44 (0) 131 226 3133</a></li>
                     <li className="nav-item mt-3 h4"><Link to="#" className="text-white">Find us</Link></li>
                     <li className="nav-item">
                       <Link to="/about" className="text-white">
@@ -72,7 +72,7 @@ const Footer = () => {
 
           <div className="bg-light">
             <p className='text-center m-0 px-2 py-4 text-dark'>
-              &copy; 2022 
+              &copy; copyright 2022 
               <a href="https://www.rabbies.com/en" className='text-success text-decoration-none'> Rabbies.com. </a> 
               All Rights Reserved.
             </p>
