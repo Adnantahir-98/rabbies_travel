@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import TopNavBar from './TopNav'
 import { Link } from 'react-router-dom'
+import {AiOutlinePhone} from 'react-icons/ai'
+
 
 const Navbar = () => {
 
@@ -8,11 +10,11 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
 
     const changeBackground = () => {
-        if(window.scrollY >= 50){
-            setNavbar(true);
-        }else{
-            setNavbar(false);
-        }
+      if(window.scrollY >= 50){
+        setNavbar(true);
+      }else{
+        setNavbar(false);
+      }
     }
 
     window.addEventListener('scroll', changeBackground)
@@ -70,6 +72,17 @@ const Navbar = () => {
                 </Link>
               </li>
 
+            </ul>
+            <ul className='navbar-nav ms-auto'>
+              <li className='nav-item'>
+                <Link className='nav-link' to="#">About us</Link>
+              </li>
+              <li className='nav-item'>
+                <Link className='nav-link' to="#">Private Tours</Link>
+              </li>
+              <li className='nav-item'>
+                <Link className='nav-link' to="#"><AiOutlinePhone /></Link>
+              </li>
             </ul>
           </div>
 

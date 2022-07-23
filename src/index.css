@@ -14,6 +14,16 @@ code {
 i{
   cursor: pointer;
 }
+nav{
+  margin-top: 45px;
+  color: #fff !important;
+}
+
+.navbar.scrollBg{
+  background-color: rgba(55, 55, 55, 0.815) !important;
+  margin: 0;
+}
+
 
 .bg-img{
   background: url('./Screens//Home/img5.jpg');
@@ -21,16 +31,15 @@ i{
   width: 100%;
   background-position: top;
   background-size: cover;
+}
+.home-award-bg{
+  background: url('./Screens//Home/awards_bg.jpg');
+  background-size: cover;
+  background-position: center;
 
 }
-nav{
-  margin-top: 45px;
-}
 
-.navbar.scrollBg{
-  background-color: rgba(55, 55, 55, 0.815) !important;
-  margin: 0;
-}
+
 
 @media only screen and (max-width:768px){
   nav{
