@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Home from './Screens/Home/Home'
 import About from './Screens/About'
-import ToursPage from './Components/pages/touerPage/ToursPage'
+import ToursPage from './Screens/touerPage/ToursPage'
 
 function App() {
   
