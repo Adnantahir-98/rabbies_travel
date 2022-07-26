@@ -14,28 +14,59 @@ code {
 i{
   cursor: pointer;
 }
+
 nav{
   margin-top: 45px;
   color: #fff !important;
+  box-shadow: 2px 2px rgba(55, 55, 55, 0.115);
 }
+
 
 .navbar.scrollBg{
   background-color: rgba(55, 55, 55, 0.815) !important;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   margin: 0;
 }
 
 
 .bg-img{
-  background: url('./Screens//Home/img5.jpg');
+  background: url('./Assets/images/img5.jpg');
   height: 100vh;
   width: 100%;
   background-position: top;
   background-size: cover;
 }
 .home-award-bg{
-  background: url('./Screens//Home/awards_bg.jpg');
+  background: url('./Assets/images/awards_bg.jpg');
   background-size: cover;
   background-position: center;
+}
+.bg-about-img{
+  background: url('./Assets/images/About_05_1920_636.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.bg-contact-img{
+  background: url('./Assets/images/Contact_us_03_1920_x_636.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.hr{
+  background: #1ba364 !important;
+  color:  #1ba364 !important;
+  outline: none;
+  border: none;
+  padding: 1px;
+}
+
+.team-guides_bg{
+  background: url('./Assets/images/map-bg.jpg');
+  background-position: center;
+  background-size: cover;
 
 }
 
