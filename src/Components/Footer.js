@@ -3,12 +3,13 @@ import {Link} from 'react-router-dom'
 import {FaFacebookF, FaTwitter, FaPinterest} from 'react-icons/fa'
 import {ImInstagram, ImYoutube2, ImLocation2} from 'react-icons/im'
 
+
 const Footer = () => {
 
   return (
     <div>
       <section>
-        <footer className="mt-5 text-center" style={{background:"#162e5b"}}>
+        <footer className="text-center" style={{background:"#162e5b"}}>
           {/* Footers Main menu */}
           <section className="mt-3 pt-5 text-white">
             <div className="container">
