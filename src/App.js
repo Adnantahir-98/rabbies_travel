@@ -3,9 +3,11 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Home from './Screens/Home'
+import Tour from './Screens/Tours'
 import About from './Screens/About'
 import Contact from './Screens/Contact'
 import Page404 from './Components/404'
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/tour" element={<Tour />} />
         <Route path="/*" element={<Page404 />} />
       </Routes>
       <Footer />
