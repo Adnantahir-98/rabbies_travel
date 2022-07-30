@@ -1,5 +1,6 @@
 import {useState} from 'react'
 
+import {Link} from 'react-router-dom'
 import { Typewriter } from 'react-simple-typewriter'
 import {Container, Row, Col} from 'react-bootstrap'
 
@@ -104,34 +105,50 @@ const Home = () => {
           <Row className='mb-4 m-auto'>
             <div className='col-md-2'></div>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget2.jpg" className='img-fluid' alt="countries_widget2.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/countries_widget2.jpg" className='img-fluid images_shadow' alt="countries_widget2.jpg" />
+              </Link>
             </div>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget4.jpg" className='img-fluid' alt="countries_widget4.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/countries_widget4.jpg" className='img-fluid images_shadow' alt="countries_widget4.jpg" />
+              </Link>
             </div>
             <div className='col-md-2'></div>
           </Row>
 
           <Row className='mb-4 m-auto'>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget6.jpg" className='img-fluid' alt="countries_widget6.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/countries_widget6.jpg" className='img-fluid images_shadow' alt="countries_widget6.jpg" />
+              </Link>
             </div>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget8.jpg" className='img-fluid' alt="countries_widget8.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/countries_widget8.jpg" className='img-fluid images_shadow' alt="countries_widget8.jpg" />
+              </Link>
             </div>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget10.jpg" className='img-fluid' alt="countries_widget10.jpg" />
+              <Link to='/'>
+                <img src="imgs/tours/countries_widget10.jpg" className='img-fluid images_shadow' alt="countries_widget10.jpg" />
+              </Link>
             </div>
           </Row>
           <Row className='m-auto'>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget14.jpg" className='img-fluid' alt="countries_widget12.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/countries_widget14.jpg" className='img-fluid images_shadow' alt="countries_widget12.jpg" />
+              </Link>
             </div>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget16.jpg" className='img-fluid' alt="countries_widget14.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/countries_widget16.jpg" className='img-fluid images_shadow' alt="countries_widget14.jpg" />
+              </Link>
             </div>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget18.jpg" className='img-fluid' alt="countries_widget16.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/countries_widget18.jpg" className='img-fluid images_shadow' alt="countries_widget16.jpg" />
+              </Link>
             </div>
             <button className='btn btn-outline-success rounded-pill col-md-4 my-4 m-auto'>Explore all our tours</button>
           </Row>
@@ -145,13 +162,19 @@ const Home = () => {
           <h1 style={{fontFamily: 'Open Sans'}} className='display-5 py-3 text-center'>Explore more</h1>
           <Row className='m-auto'>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget14.jpg" className='img-fluid' alt="countries_widget12.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/countries_widget14.jpg" className='img-fluid images_shadow' alt="countries_widget12.jpg" />
+              </Link>
             </div>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/Covid_homepage_dark.png" className='img-fluid' alt="countries_widget14.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/Covid_homepage_dark.png" className='img-fluid images_shadow' alt="countries_widget14.jpg" />
+              </Link>
             </div>
             <div className='col-md-4 mb-2'>
-              <img src="imgs/tours/countries_widget18.jpg" className='img-fluid' alt="countries_widget16.jpg" />
+              <Link to="/">
+                <img src="imgs/tours/countries_widget18.jpg" className='img-fluid images_shadow' alt="countries_widget16.jpg" />
+              </Link>
             </div>
           </Row>
         </Container>
@@ -161,8 +184,8 @@ const Home = () => {
       <section>
         <Container className='my-4'>
           <h1 style={{fontFamily: 'Open Sans'}} className='display-5 mt-5 mb-3 text-center'>#rabbiestours</h1>
-          <Row data-masonry='{"percentPosition": true }'>
-            <Box sx={{ width: 1200, minHeight: 829 }}>
+          <Row>
+            <Box sx={{ width: 1200, minHeight: 829 }} className='m-auto'>
               <Masonry columns={3} spacing={2}>
                 {imageGallery.slice(0, show).map((item, index) => (
                   <div key={index}>
@@ -173,6 +196,7 @@ const Home = () => {
                         srcSet={`${item.img}?w=162&auto=format&dpr=2 2x`}
                         alt={item.title}
                         loading="lazy"
+                        className='images_shadow'
                         style={{
                           borderBottomLeftRadius: 4,
                           borderBottomRightRadius: 4,

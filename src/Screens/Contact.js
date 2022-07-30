@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 
 const Contact = () => {
@@ -26,13 +27,14 @@ const Contact = () => {
                     <p className='mb-1'>Mon - Sat: 7:30 to 16:00</p>
                     <p>Sun: 7:30 to 15:00</p>
 
-                    <h4 className='fw-light mb-2'>Phone Rabbie's</h4>
+                    <h4 className='fw-light mb-2'></h4>
+                    <h5 className='fw-normal mt-3'>Phone Rabbie's</h5>
                     <p className='mb-0'>Tel: <strong>+44(0) 131 226 3133</strong></p>
                     <p>Mon - Sun: 07:30 - 15:00</p>
 
-                    <h4>Email Rabbie's</h4>
-                    <p className='mb-0'>Tour enquiries: <a className='text-success' href="#">tours@rabbies.com</a></p>
-                    <p>Press enquiries: <a className='text-success' href="#">PR@rabbies.com</a></p>
+                    <h5 className='fw-normal mt-3'>Email Rabbie's</h5>
+                    <p className='mb-0'>Tour enquiries: <a className='text-success h6 fw-normal' href="#">tours@rabbies.com</a></p>
+                    <p>Press enquiries: <a className='text-success h6 fw-normal' href="#">PR@rabbies.com</a></p>
                 </Col>
                 <Col md={6}>
                     <form className="" method="POST">
