@@ -18,6 +18,7 @@ const Tours = () => {
             <Container>
                 <Row>
                     <h1>Tour Page1</h1>
+                    <p>Something</p>
                 </Row>
             </Container>
         </section>
