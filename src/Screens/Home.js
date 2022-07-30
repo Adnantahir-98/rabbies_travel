@@ -37,7 +37,7 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className='bg-light'>
 
       <header className='bg-img'>
         <code>
@@ -69,23 +69,23 @@ const Home = () => {
 
 
       <section>
-        <Container className='bg-white text-muted mt-5'>
+        <Container className='bg-light text-muted mt-5'>
           <h1 style={{fontFamily: 'Open Sans'}} className='display-4 py-3 text-center'>Award-Winning Tours</h1>
           <Row className="text-center">
             <Col md={3}>
-              <img src="imgs/icon-van.png" alt="icon-van.png" />
+              <img src="imgs/icon-van.png" alt="icon-van.png" className='my-3' />
               <p>Travel in small groups or <a href="#" className='text-success'>private tours</a></p>
             </Col>
             <Col md={3}>
-              <img src="imgs/icon-van.png" alt="" />
+              <img src="imgs/money-back.png" alt="money-back.png" />
               <p>You'll have a guaranteed experience or your money back</p>
             </Col>
             <Col md={3}>
-              <img src="imgs/icon-van.png" alt="" />
+              <img src="imgs/guaranteed-departures.png" alt="guaranteed-departures.png" />
               <p>Guaranteed departures: We'll never cancel your tour because of minimum numbers</p>
             </Col>
             <Col md={3}>
-              <img src="imgs/icon-van.png" alt="" />
+              <img src="imgs/leaf.png" alt="leaf.png" />
               <p>Our eco-friendly tours support local communities</p>
             </Col>
           </Row>
