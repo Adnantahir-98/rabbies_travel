@@ -11,7 +11,6 @@ import Checkout from './Components/Checkout'
 import Page404 from './Components/404'
 
 
-
 function App() {
 
   const [inputText, setInputText] = useState("")
